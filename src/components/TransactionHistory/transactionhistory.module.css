@@ -1,4 +1,4 @@
-.transaction-history {
+.transactionhistory__table {
   width: 95%;
   border-collapse: collapse;
   margin-bottom: 50px;
@@ -7,34 +7,40 @@
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
-.transaction-history th,
-.transaction-history td {
+
+.transactionhistory__table th,
+.transactionhistory__table td {
   padding: 8px;
   text-align: center;
   border: 1px solid rgba(93, 91, 91, 0.641);
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
-.transaction-history th {
+
+.transactionhistory__table th {
   background-color: #7acbf7;
   font-weight: bold;
 }
-.transaction-history tbody tr {
+
+.transactionhistory__table tbody tr {
   display: table-row;
 }
-.transaction-history tbody tr td {
+
+.transactionhistory__table tbody tr td {
   display: table-cell;
 }
-.transaction-history .invoice {
+
+.transactionhistory__table .invoice {
   background-color: #d5dba1;
 }
 
-.transaction-history .withdrawal {
+.transactionhistory__table .withdrawal {
   background-color: #e9d3d3;
 }
-.transaction-history .payment {
+
+.transactionhistory__table .payment {
   background-color: #6bae8d;
 }
 
-.transaction-history .deposit {
+.transactionhistory__table .deposit {
   background-color: #cb95c9;
 }

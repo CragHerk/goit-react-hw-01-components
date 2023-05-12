@@ -1,8 +1,4 @@
 /* bring in normalize.css styles */
-@import url(../src/components/Profile/profile.css);
-@import url(../src/components/Statistics/statistics.css);
-@import url(../src/components/FriendList/friendlist.css);
-@import url(../src/components/TransactionHistory/transactionhistory.css);
 
 body {
   margin: 0;
@@ -17,4 +13,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }
