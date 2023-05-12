@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import getRandomColor from 'utils/getRandomColor';
-import styles from './statistics.module.css';
+import styles from './Statistics.module.css';
 
 function Statistics(props) {
-  const { title, stats } = props;
+  const { stats } = props;
 
   return (
     <section className={styles.statistics}>
-      {title && <h2 className={styles.title}>{title}</h2>}
+      <h2>Statistics</h2>
       <ul className={styles.statlist}>
         {stats.map(stat => (
           <li

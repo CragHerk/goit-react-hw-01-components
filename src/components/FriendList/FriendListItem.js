@@ -1,4 +1,7 @@
-import styles from '../components/FriendList/friendlist.module.css';
+import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './Friendlist.module.css';
+
 export default function FriendListItem({ avatar, name, isOnline }) {
   const statusClass = isOnline
     ? styles['friendlist__status--online']
@@ -17,3 +20,9 @@ export default function FriendListItem({ avatar, name, isOnline }) {
     </li>
   );
 }
+
+FriendListItem.propTypes = {
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.bool.isRequired,
+};
